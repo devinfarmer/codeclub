@@ -3,10 +3,10 @@ require "twitter"
 
 
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = "cLT8HfqDNKUNkmYw0mb6w3CaH"
-  config.consumer_secret     = "rOH6AqcC4bYcBn03GP7y8euRWI82IxTKXuvb8CgcJRQqF9Jnjb"
-  config.access_token        = "2529015336-80kIDjdUiG8QfHRUwSVb6MR5c9VoUKb4iT2TZQf"
-  config.access_token_secret = "h0Ls8fZypLBn0hzBTxt3LfP7rgG9yfJCsimqW5KKOldrM"
+  config.consumer_key        = "consumerkey"
+  config.consumer_secret     = "consumersecret"
+  config.access_token        = "accesstoken"
+  config.access_token_secret = "accesstokensecret"
 end
 
 markov = MarkyMarkov::TemporaryDictionary.new
